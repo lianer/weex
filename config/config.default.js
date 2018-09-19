@@ -12,9 +12,9 @@ module.exports = appInfo => {
   config.view = {
     defaultViewEngine: 'pug',
     mapping: {
-      '.pug': 'pug'
-    }
-  }
+      '.pug': 'pug',
+    },
+  };
 
   return config;
 };

@@ -5,5 +5,5 @@
 
 exports.pug = {
   enable: true,
-  package: 'egg-view-pug'
-}
+  package: 'egg-view-pug',
+};
