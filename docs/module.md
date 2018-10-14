@@ -12,7 +12,7 @@
 
 ### API
 
-#### `visit([data])`
+#### visit([data])
 
 页面访问埋点，pv 埋点
 
@@ -20,7 +20,7 @@
 
 - `data {string}` 跟随 PV 一起上报的数据，可选
 
-#### `click(name[, data])`
+#### click(name[, data])
 
 点击时间埋点，click 埋点
 
@@ -43,11 +43,11 @@
 
 ### API
 
-#### `showShareView()`
+#### showShareView()
 
 显示分享弹窗
 
-#### `shareTo(options)`
+#### shareTo(options)
 
 分享到指定渠道，用于通过页面中的点击位直接触发分享行为
 
@@ -63,11 +63,11 @@
   - `link {string}` 分享链接，分享图标，必须使用 `https` 绝对路径，可选，默认当前页面链接
   - `imgUrl {string}` 分享图标，必须使用 `https` 绝对路径，可选，默认微医通用 logo
 
-#### `showShareButton()`
+#### showShareButton()
 
 显示导航栏分享按钮
 
-#### `hideShareButton()`
+#### hideShareButton()
 
 隐藏导航栏分享按钮
 
@@ -85,7 +85,7 @@
 
 ### API
 
-#### `getToken(callback)`
+#### getToken(callback)
 
 获取用户 token
 
@@ -95,7 +95,7 @@
   - `data {Object}`
     - `token {string}` 用户 token，若用户未登录，返回空字符串`""`
 
-#### `gotoLogin(callback)`
+#### gotoLogin(callback)
 
 唤起登录弹窗
 
@@ -105,7 +105,7 @@
   - `data {Object}`
     - `token {string}` 用户 token，若登录失败，返回空字符串`""`
 
-<!-- #### `gotoVerify([options, callback])`
+<!-- #### gotoVerify([options, callback])
 
 前往实名认证
 
@@ -121,7 +121,7 @@
   - `data {Object}`
     - `success {string}` "true" or "false" -->
 
-#### `gotoVerify(callback)`
+#### gotoVerify(callback)
 
 前往实名认证
 
