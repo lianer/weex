@@ -29,8 +29,6 @@
 - `name {string}` 点击位名称，必填
 - `data {Object}` 随点击埋点一起上报的数据，可选
 
----
-
 ## Share Module <sup>`1.0+`</sup>
 
 ### 概述
@@ -70,8 +68,6 @@
 #### hideShareButton()
 
 隐藏导航栏分享按钮
-
----
 
 ## User Module <sup>`1.0+`</sup>
 
