@@ -1,10 +1,10 @@
 # portal-h5-weex
 
-
-
 ## 快速入门
 
 <!-- 在此次添加使用文档 -->
+
+Weex 开发文档：http://fed.guahao-inc.com/books/weex/about
 
 如需进一步了解，参见 [egg 文档][egg]。
 

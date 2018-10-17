@@ -1,10 +1,10 @@
 # portal-h5-weex
 
-
-
 ## QuickStart
 
 <!-- add docs here for user -->
+
+Weex Documentation：http://fed.guahao-inc.com/books/weex/about
 
 see [egg docs][egg] for more detail.
 
