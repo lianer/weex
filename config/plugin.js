@@ -7,3 +7,8 @@ exports.pug = {
   enable: true,
   package: 'egg-view-pug',
 };
+
+exports.assets = {
+  enable: true,
+  package: 'egg-view-assets'
+}

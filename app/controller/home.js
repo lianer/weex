@@ -3,8 +3,10 @@
 const Controller = require('egg').Controller;
 
 class HomeController extends Controller {
-  async index() {
-    await this.ctx.render('home/index.pug');
+  async render() {
+    await this.ctx.render('home/index.pug', {
+      context: { a: 1 }
+    });
   }
 }
 
